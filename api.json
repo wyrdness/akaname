@@ -1,10 +1,8 @@
 {
-  "category": "ENTITY_SPIRIT",
-
   "meta": {
     "version": "1.0.0",
     "schema_version": "1.0.0",
-    "last_updated": "2026-01-14",
+    "last_updated": "2026-02-13",
     "repository": "https://github.com/wyrdness/akaname",
     "maintainers": [
       {
@@ -18,283 +16,111 @@
       "content": "CC-BY-4.0"
     }
   },
-
   "phenomenon": {
     "id": "akaname",
     "name": "Akaname",
-    "aliases": [
-      {
-        "name": "垢嘗",
-        "language": "Japanese",
-        "meaning": "Filth licker"
-      },
-      {
-        "name": "Filth Licker",
-        "language": "English",
-        "meaning": "Direct translation of yokai name"
-      }
-    ],
+    "aliases": [],
     "category": "ENTITY_SPIRIT",
-    "subcategory": "Yokai",
+    "subcategory": "Domestic spirit",
     "tags": [
-      "yokai",
-      "japanese-folklore",
-      "bathroom-spirit",
-      "cleanliness",
-      "cautionary-tale",
-      "harmless",
-      "hygiene",
-      "domestic"
+      "folklore",
+      "mythology"
     ],
-    "status": "traditional",
+    "status": "documented",
     "description": {
-      "summary": "A Japanese yokai that appears in unclean bathrooms at night, depicted as a small humanoid creature with a long tongue that licks filth, grime, and mold from dirty surfaces. Serves as a cautionary tale promoting cleanliness.",
-      "full": "Akaname, whose name literally means 'filth licker,' is a distinctive yokai from Japanese folklore that inhabits dirty, neglected bathrooms. This small humanoid creature appears at night in bathrooms that have been left unclean, using its characteristically long tongue to lick filth, grime, mold, and accumulated dirt from walls, floors, and fixtures. Depicted with grimy skin, disheveled hair, and a generally grotesque appearance, Akaname is nonetheless harmless to humans—its presence serves more as a consequence and reminder of poor hygiene than as a genuine threat. The yokai embodies a practical folk belief designed to encourage cleanliness and proper maintenance of bathrooms, particularly traditional Japanese baths. In folklore, the simple prevention is maintaining cleanliness—Akaname will not appear in a well-kept bathroom. In modern times, the yokai has been featured in cleaning product advertising and hygiene education, demonstrating how traditional folklore adapts to serve contemporary purposes. Akaname represents the Japanese cultural emphasis on cleanliness and the consequences of negligence, packaged in the form of a disgusting but ultimately harmless supernatural being."
+      "summary": "Akaname, whose name literally means \\\"filth licker,\\\" is a distinctive yokai from Japanese folklore that inhabits dirty, neglected bathrooms.",
+      "full": "Akaname, whose name literally means \\\"filth licker,\\\" is a distinctive yokai from Japanese folklore that inhabits dirty, neglected bathrooms. This small humanoid creature appears at night in bathrooms that have been left unclean, using its characteristically long tongue to lick filth, grime, mold, and accumulated dirt from walls, floors, and fixtures. Depicted with grimy skin, disheveled hair, and a generally grotesque appearance, Akaname is nonetheless harmless to humans—its presence serves more as a consequence and reminder of poor hygiene than as a genuine threat. The yokai embodies a practical folk belief designed to encourage cleanliness and proper maintenance of bathrooms, particularly traditional Japanese baths. The simple prevention is maintaining cleanliness—Akaname will not appear in a well-kept bathroom."
     },
     "etymology": {
-      "origin": "'Aka' means filth, grime, or scum, and 'name/nameru' means to lick.",
-      "meaning": "Filth licker",
-      "first_use": "Traditional Japanese folklore"
+      "origin": "Unknown",
+      "meaning": "To be documented",
+      "first_use": "Unknown"
     }
   },
-
   "classification": {
     "taxonomy": {
       "category": "ENTITY_SPIRIT",
-      "type": "Yokai",
-      "subtype": "Domestic spirit",
-      "variant": "Japanese (household)"
+      "type": "Domestic spirit",
+      "subtype": "Unknown",
+      "variant": "Unknown"
     },
-    "related_phenomena": [
-      {
-        "id": "zashiki-warashi",
-        "name": "Zashiki-warashi",
-        "relationship": "household_spirit",
-        "description": "Child spirit inhabiting homes (but benevolent)"
-      },
-      {
-        "id": "kappa",
-        "name": "Kappa",
-        "relationship": "water_associated",
-        "description": "Water yokai, both associated with water/bathing areas"
-      }
-    ]
+    "related_phenomena": []
   },
-
   "characteristics": {
     "physical": {
-      "height": {
-        "min": 0.5,
-        "max": 1.0,
-        "unit": "meters",
-        "confidence": "medium"
-      },
-      "coloration": [
-        "grimy skin",
-        "dirty appearance",
-        "unwashed coloring"
-      ],
-      "features": [
-        {
-          "feature": "Tongue",
-          "description": "Extremely long tongue for licking filth",
-          "frequency": "always"
-        },
-        {
-          "feature": "Appearance",
-          "description": "Small humanoid with dirty, unkempt look",
-          "frequency": "always"
-        },
-        {
-          "feature": "Hair",
-          "description": "Disheveled, messy hair",
-          "frequency": "common"
-        },
-        {
-          "feature": "Skin",
-          "description": "Grimy, dirty-looking skin",
-          "frequency": "always"
-        }
-      ],
-      "morphology": "Small humanoid creature with grotesque, dirty appearance and disproportionately long tongue."
+      "features": [],
+      "morphology": "See README.md for detailed physical description"
     },
-    "abilities": [
-      {
-        "ability": "Filth consumption",
-        "description": "Licks and consumes bathroom grime, mold, and filth",
-        "frequency": "always",
-        "evidence_level": "folklore"
-      },
-      {
-        "ability": "Nocturnal appearance",
-        "description": "Manifests only at night in dirty bathrooms",
-        "frequency": "always",
-        "evidence_level": "folklore"
-      },
-      {
-        "ability": "Cleanliness detection",
-        "description": "Only appears in neglected, dirty bathrooms",
-        "frequency": "always",
-        "evidence_level": "folklore"
-      }
-    ],
+    "abilities": [],
     "behavior": {
-      "activity_period": "nocturnal",
-      "disposition": "harmless",
-      "social_structure": "solitary",
-      "habitat_preference": [
-        "unclean bathrooms",
-        "traditional Japanese baths",
-        "neglected washing areas",
-        "places with accumulated filth"
-      ],
-      "diet": "Filth, grime, mold, bathroom scum",
-      "patterns": [
-        "Emerges at night",
-        "Licks dirty surfaces with long tongue",
-        "Targets bathrooms specifically",
-        "Disappears if bathroom is clean",
-        "Does not harm humans",
-        "Serves as indicator of poor hygiene"
-      ]
+      "activity_period": "unknown",
+      "disposition": "unknown",
+      "habitat_preference": []
     }
   },
-
   "distribution": {
     "range": {
-      "description": "Traditional Japanese folklore, particularly associated with household maintenance and cleanliness traditions.",
-      "continents": ["Asia"],
-      "countries": ["Japan"],
-      "regions": [
-        "Throughout Japan in domestic folklore"
-      ]
+      "description": "Unknown",
+      "continents": [],
+      "countries": [],
+      "regions": []
     },
+    "hotspots": [],
     "temporal": {
       "first_recorded": {
-        "date": "Traditional folklore",
+        "date": "Unknown",
         "circa": true,
-        "source": "Japanese household folklore"
-      },
-      "peak_activity_periods": [
-        {
-          "period": "Traditional era",
-          "description": "Cautionary tales for maintaining bathroom cleanliness"
-        },
-        {
-          "period": "Modern era",
-          "description": "Revival in advertising and hygiene education"
-        }
-      ]
+        "source": "Traditional folklore"
+      }
     }
   },
-
   "history": {
     "origins": {
-      "cultural_roots": "Japanese domestic folklore emphasizing cleanliness and proper household maintenance, particularly of bathrooms and bathing areas which hold cultural significance.",
-      "earliest_accounts": "Traditional household folklore",
-      "folklore_connections": "Part of broader Japanese tradition of yokai that enforce social norms and proper behavior through cautionary tales."
+      "cultural_roots": "Unknown",
+      "earliest_accounts": "See README.md for historical details",
+      "folklore_connections": "Unknown"
     },
-    "timeline": [
-      {
-        "date": "Traditional period",
-        "event": "Folklore origins",
-        "significance": "Stories used to encourage bathroom cleanliness",
-        "source": "Oral tradition and folklore"
-      },
-      {
-        "date": "Edo period",
-        "event": "Documented in yokai collections",
-        "significance": "Formalized in written folklore compilations",
-        "source": "Yokai catalogs"
-      },
-      {
-        "date": "Modern era",
-        "event": "Commercial and educational use",
-        "significance": "Featured in cleaning product advertising and hygiene education",
-        "source": "Contemporary media"
-      }
-    ],
-    "modern_era": "Akaname continues to appear in Japanese popular culture, yokai collections, and has been adapted for modern hygiene education and cleaning product marketing, demonstrating the practical application of folklore."
+    "timeline": []
   },
-
+  "sightings": {
+    "statistics": {
+      "total_documented": 0,
+      "verified": 0,
+      "disputed": 0,
+      "debunked": 0
+    },
+    "notable": [],
+    "database_path": "./sightings/"
+  },
+  "evidence": {
+    "physical": [],
+    "photographic": [],
+    "video": [],
+    "audio": [],
+    "trace": []
+  },
+  "theories": {
+    "paranormal": [],
+    "scientific": [],
+    "skeptical": []
+  },
   "cultural": {
     "folklore": {
-      "traditions": [
-        "Household cleanliness enforcement",
-        "Bathroom maintenance importance",
-        "Consequences of negligence"
-      ],
-      "stories": [
-        "Children warned to keep bathrooms clean",
-        "Yokai appearing in neglected homes",
-        "Disgusting creature as motivation for hygiene"
-      ],
-      "beliefs": "Cleanliness prevents supernatural intrusion. Negligence attracts unwanted spirits. Proper household maintenance is both practical and spiritual duty."
-    },
-    "indigenous": {
-      "cultures": [
-        "Japanese"
-      ],
-      "significance": "Reflects Japanese cultural emphasis on cleanliness, particularly in bathing areas. Bathrooms and baths hold special significance in Japanese culture.",
-      "sensitivity_note": "Akaname folklore reflects important Japanese cultural values regarding cleanliness and household maintenance.",
-      "respect_guidelines": "Understand the cultural context of cleanliness in Japanese society and the practical purpose of such cautionary yokai."
+      "traditions": [],
+      "stories": [],
+      "beliefs": "See README.md for cultural context"
     },
     "popular_culture": {
-      "literature": [
-        "Yokai encyclopedias and reference books",
-        "Children's folklore collections",
-        "Educational materials on hygiene"
-      ],
-      "film_tv": [
-        "Yokai-themed anime appearances",
-        "Educational programs",
-        "Folklore documentaries"
-      ],
-      "games": [
-        "Yokai Watch series",
-        "Various yokai-themed games"
-      ],
-      "other": [
-        "Cleaning product advertising",
-        "Hygiene education campaigns",
-        "Cultural merchandise"
-      ]
+      "literature": [],
+      "film_tv": [],
+      "games": [],
+      "other": []
     }
   },
-
   "research": {
-    "researchers": [
-      {
-        "name": "Shigeru Mizuki",
-        "affiliation": "Manga artist and yokai researcher",
-        "contribution": "Modern documentation of yokai folklore including domestic spirits",
-        "period": "20th-21st century"
-      }
-    ],
-    "organizations": [
-      {
-        "name": "International Research Center for Japanese Studies",
-        "focus": "Japanese folklore and cultural studies"
-      }
-    ]
+    "researchers": [],
+    "organizations": [],
+    "ongoing_studies": "None documented"
   },
-
-  "sources": [
-    {
-      "id": "foster-2015",
-      "type": "book",
-      "title": "The Book of Yokai: Mysterious Creatures of Japanese Folklore",
-      "authors": ["Michael Dylan Foster"],
-      "publication": "University of California Press",
-      "date": "2015",
-      "isbn": "978-0520271029"
-    },
-    {
-      "id": "mizuki-yokai",
-      "type": "book",
-      "title": "Mizuki Shigeru's Yokai Encyclopedia",
-      "authors": ["Shigeru Mizuki"],
-      "publication": "Various Japanese publishers"
-    }
-  ]
+  "sources": []
 }
