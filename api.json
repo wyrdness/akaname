@@ -1,8 +1,8 @@
 {
   "meta": {
-    "version": "1.0.0",
+    "version": "1.1.0",
     "schema_version": "1.0.0",
-    "last_updated": "2026-02-13",
+    "last_updated": "2026-05-07",
     "repository": "https://github.com/wyrdness/akaname",
     "maintainers": [
       {
@@ -16,72 +16,116 @@
       "content": "CC-BY-4.0"
     }
   },
+
   "phenomenon": {
     "id": "akaname",
     "name": "Akaname",
-    "aliases": [],
+    "aliases": [
+      { "name": "垢嘗", "language": "Japanese (kanji)", "meaning": "filth-licker" },
+      { "name": "Akaneburi", "language": "Japanese (older variant)", "meaning": "filth-licking" },
+      { "name": "Filth-licker", "language": "English (descriptive)" }
+    ],
     "category": "ENTITY_SPIRIT",
-    "subcategory": "Domestic spirit",
+    "subcategory": "Yokai (bathroom spirit)",
     "tags": [
-      "folklore",
-      "mythology"
+      "japan",
+      "yokai",
+      "edo-period",
+      "toriyama-sekien",
+      "bathroom-folklore",
+      "domestic-spirit",
+      "filth",
+      "cleanliness"
     ],
     "status": "documented",
     "description": {
-      "summary": "Akaname, whose name literally means \\\"filth licker,\\\" is a distinctive yokai from Japanese folklore that inhabits dirty, neglected bathrooms.",
-      "full": "Akaname, whose name literally means \\\"filth licker,\\\" is a distinctive yokai from Japanese folklore that inhabits dirty, neglected bathrooms. This small humanoid creature appears at night in bathrooms that have been left unclean, using its characteristically long tongue to lick filth, grime, mold, and accumulated dirt from walls, floors, and fixtures. Depicted with grimy skin, disheveled hair, and a generally grotesque appearance, Akaname is nonetheless harmless to humans—its presence serves more as a consequence and reminder of poor hygiene than as a genuine threat. The yokai embodies a practical folk belief designed to encourage cleanliness and proper maintenance of bathrooms, particularly traditional Japanese baths. The simple prevention is maintaining cleanliness—Akaname will not appear in a well-kept bathroom."
+      "summary": "Akaname ('filth-licker') is a small Japanese yokai recorded in Edo-period bestiaries that emerges in dirty, neglected bathrooms and bathhouses to lick the grime off tubs and floors with its long red tongue. It functions in folklore as a moral spur to keep bathrooms clean.",
+      "full": "Akaname (垢嘗, 'filth-licker') is a yokai of Japanese folklore, classically depicted as a small, child-sized, naked humanoid with shaggy hair, clawed feet, and an extremely long red tongue. It appears in old bathhouses and dilapidated bathrooms at night, where it laps up the dirt, sweat-residue, and mildew (collectively aka) accumulated on tubs, floors, and walls. The earliest known reference is the variant akaneburi described in Yamaoka Genrin's Kokon hyakumonogatari hyōban (1686), and the standard form is fixed by Toriyama Sekien's woodblock-print bestiary Gazu Hyakki Yagyō (1776). Detailed prose anecdotes appear in Kanda Genki's Nittō honzō zusan (1780). In its conventional form akaname is harmless: rather than attacking humans, it serves as a folk warning that bathrooms left dirty will attract supernatural vermin. A more sinister variant in some regional traditions takes the form of a beautiful woman who licks her victims to skeletal remains, but this is far less widespread than the harmless cleanliness-totem version."
     },
     "etymology": {
-      "origin": "Unknown",
-      "meaning": "To be documented",
-      "first_use": "Unknown"
+      "origin": "Japanese, from aka (垢, 'dirt, sweat-grime, scum') and the verb nameru (嘗める, 'to lick').",
+      "meaning": "'Filth-licker' or 'scum-licker'.",
+      "first_use": "1686 — earliest reference is to akaneburi in Yamaoka Genrin's Kokon hyakumonogatari hyōban; the form akaname is named in Toriyama Sekien's Gazu Hyakki Yagyō (1776)."
     }
   },
+
   "classification": {
     "taxonomy": {
       "category": "ENTITY_SPIRIT",
-      "type": "Domestic spirit",
-      "subtype": "Unknown",
-      "variant": "Unknown"
+      "type": "Yokai",
+      "subtype": "Domestic / bathroom spirit",
+      "variant": "Edo-period Japan"
     },
-    "related_phenomena": []
+    "related_phenomena": [
+      { "id": "tenjoname", "name": "Tenjōname", "relationship": "similar", "description": "Ceiling-licker yokai of Toriyama Sekien's catalogues" },
+      { "id": "aka-manto", "name": "Aka Manto", "relationship": "related", "description": "Modern bathroom-related Japanese urban legend, sometimes confused with the akaname" },
+      { "id": "bannik", "name": "Bannik", "relationship": "similar", "description": "Slavic bathhouse spirit with comparable role" }
+    ]
   },
+
   "characteristics": {
     "physical": {
-      "features": [],
-      "morphology": "See README.md for detailed physical description"
+      "features": [
+        { "feature": "Child-sized humanoid form", "description": "Roughly the size of a child, often described in classical sources as having a naked, ruddy or red body.", "frequency": "always" },
+        { "feature": "Long red tongue", "description": "Conspicuously long red tongue, used to lick filth from bath surfaces.", "frequency": "always" },
+        { "feature": "Clawed feet / single toe", "description": "Sharp claws on the toes; in some descriptions only a single toe per foot.", "frequency": "common" },
+        { "feature": "Bristly or pebbly head", "description": "Cropped or pebbly textured head per the Nittō honzō zusan.", "frequency": "common" },
+        { "feature": "Round eyes", "description": "Large round eyes, contributing to the goblin-like appearance.", "frequency": "common" }
+      ],
+      "morphology": "Small humanoid yokai built around an oversized tongue and claws; depicted in colour woodblock prints rather than measured in physical units."
     },
-    "abilities": [],
+    "abilities": [
+      { "ability": "Filth-licking", "description": "Cleans grime, sweat-residue, and mildew from bathroom surfaces with its long tongue.", "frequency": "always", "evidence_level": "folklore" },
+      { "ability": "Stealth manifestation", "description": "Appears unseen at night in unattended bathrooms and bathhouses.", "frequency": "always", "evidence_level": "folklore" }
+    ],
     "behavior": {
-      "activity_period": "unknown",
-      "disposition": "unknown",
-      "habitat_preference": []
+      "activity_period": "nocturnal",
+      "disposition": "neutral",
+      "social_structure": "solitary",
+      "habitat_preference": ["dirty private bathrooms", "neglected public bathhouses (sentō)", "abandoned dwellings"],
+      "diet": "Aka — accumulated dead-skin grime, sweat residue, soap scum, and mildew",
+      "patterns": [
+        "Visits bathrooms left uncleaned",
+        "Avoids occupied or recently scrubbed spaces",
+        "Functions as a folk reminder to maintain cleanliness"
+      ]
     }
   },
+
   "distribution": {
     "range": {
-      "description": "Unknown",
-      "continents": [],
-      "countries": [],
-      "regions": []
+      "description": "A figure of Japanese yokai art and folklore, distributed wherever Edo-period and modern Japanese bathing culture is observed.",
+      "continents": ["Asia"],
+      "countries": ["Japan"],
+      "regions": ["Old urban bathhouses and private bathrooms across Japan"]
     },
     "hotspots": [],
     "temporal": {
       "first_recorded": {
-        "date": "Unknown",
-        "circa": true,
-        "source": "Traditional folklore"
-      }
+        "date": "1686",
+        "circa": false,
+        "source": "Yamaoka Genrin, Kokon hyakumonogatari hyōban (1686), under the variant name akaneburi"
+      },
+      "peak_activity_periods": [
+        { "period": "Edo period (17th–18th centuries)", "description": "Compilation by Yamaoka Genrin (1686), Toriyama Sekien (1776), and Kanda Genki (1780)" }
+      ]
     }
   },
+
   "history": {
     "origins": {
-      "cultural_roots": "Unknown",
-      "earliest_accounts": "See README.md for historical details",
-      "folklore_connections": "Unknown"
+      "cultural_roots": "Japanese folk belief regarding household and bathhouse spirits, formalised in Edo-period yokai literature and woodblock-print bestiaries.",
+      "earliest_accounts": "Yamaoka Genrin's Kokon hyakumonogatari hyōban (1686) is the earliest known printed reference, under the variant name akaneburi.",
+      "folklore_connections": "Belongs to a network of bathroom and household yokai that includes the ceiling-licker tenjōname and the modern urban legend Aka Manto."
     },
-    "timeline": []
+    "timeline": [
+      { "date": "1686-01-01", "event": "Yamaoka Genrin includes the variant akaneburi in Kokon hyakumonogatari hyōban", "significance": "Earliest known printed reference", "source": "Yamaoka Genrin (1686)" },
+      { "date": "1776-01-01", "event": "Toriyama Sekien depicts and names the akaname in Gazu Hyakki Yagyō", "significance": "Standard visual representation; fixes the name 'akaname'", "source": "Toriyama Sekien (1776)" },
+      { "date": "1780-01-01", "event": "Kanda Genki's Nittō honzō zusan provides further descriptive anecdotes", "significance": "Adds the 'pebbly head, round eyes, long tongue' description", "source": "Kanda Genki (1780)" }
+    ],
+    "modern_era": "The akaname is one of the most widely recognised minor yokai in modern Japanese popular culture and a stock figure in yokai illustration, manga, and games. Modern English-language documentation, especially through Matthew Meyer's yokai.com, has spread the figure internationally."
   },
+
   "sightings": {
     "statistics": {
       "total_documented": 0,
@@ -92,35 +136,143 @@
     "notable": [],
     "database_path": "./sightings/"
   },
+
   "evidence": {
     "physical": [],
     "photographic": [],
     "video": [],
     "audio": [],
-    "trace": []
+    "trace": [],
+    "documentary": [
+      {
+        "id": "akaname-evidence-sekien-1776",
+        "type": "woodblock-print catalogue",
+        "name": "Gazu Hyakki Yagyō entry",
+        "date": "1776",
+        "description": "Toriyama Sekien's illustrated entry that fixes the name and standard appearance of the akaname.",
+        "status": "verified",
+        "analysis": "An original Edo-period printed source; foundation of all later representations.",
+        "source": "Toriyama Sekien, Gazu Hyakki Yagyō (1776)"
+      },
+      {
+        "id": "akaname-evidence-genrin-1686",
+        "type": "book",
+        "name": "Kokon hyakumonogatari hyōban entry",
+        "date": "1686",
+        "description": "Yamaoka Genrin's earliest reference to the akaneburi (filth-licking) variant.",
+        "status": "verified",
+        "source": "Yamaoka Genrin, Kokon hyakumonogatari hyōban (1686)"
+      },
+      {
+        "id": "akaname-evidence-nitto-1780",
+        "type": "book",
+        "name": "Nittō honzō zusan entry",
+        "date": "1780",
+        "description": "Kanda Genki's prose description of the akaname with the 'pebbly head, round eyes, long tongue' language.",
+        "status": "verified",
+        "source": "Kanda Genki, Nittō honzō zusan (1780)"
+      }
+    ]
   },
+
   "theories": {
-    "paranormal": [],
+    "paranormal": [
+      {
+        "name": "Manifestation of accumulated filth",
+        "description": "In Japanese folk understanding, the akaname is generated where dust and grime concentrate in old bathhouses and dilapidated homes — a literal embodiment of accumulated negative energy or impurity.",
+        "proponents": ["Edo-period yokai writers"],
+        "evidence_cited": ["Habitat consistently restricted to neglected bathrooms"]
+      }
+    ],
     "scientific": [],
-    "skeptical": []
+    "skeptical": [
+      {
+        "name": "Domestic moral fable",
+        "description": "Folklorists generally treat the akaname as a didactic fable encouraging hygiene: parents and elders invoked it to motivate children to keep bathrooms clean.",
+        "proponents": ["Modern yokai scholars"],
+        "evidence_cited": ["The yokai's exclusive habitat in dirty rooms", "Its non-violent role in canonical Edo sources"]
+      }
+    ]
   },
+
   "cultural": {
     "folklore": {
-      "traditions": [],
-      "stories": [],
-      "beliefs": "See README.md for cultural context"
+      "traditions": [
+        "Edo-period yokai cataloguing",
+        "Japanese bathhouse and bathroom folklore"
+      ],
+      "stories": [
+        "Toriyama Sekien's depiction of the akaname in Gazu Hyakki Yagyō",
+        "Regional variant of a beautiful-woman akaname who licks victims to skeletal remains"
+      ],
+      "beliefs": "The akaname is taken as a folk reminder to maintain cleanliness; an unkempt bath is said to invite it."
     },
     "popular_culture": {
-      "literature": [],
+      "literature": [
+        "Toriyama Sekien — Gazu Hyakki Yagyō (1776)",
+        "Yamaoka Genrin — Kokon hyakumonogatari hyōban (1686)",
+        "Kanda Genki — Nittō honzō zusan (1780)",
+        "Matthew Meyer — The Night Parade of One Hundred Demons and other yokai compendia"
+      ],
       "film_tv": [],
-      "games": [],
-      "other": []
+      "games": [
+        "Recurring as a minor enemy in Japanese console RPGs and yokai-themed games"
+      ],
+      "other": [
+        "Featured prominently on yokai.com and other modern yokai databases"
+      ]
     }
   },
+
   "research": {
-    "researchers": [],
+    "researchers": [
+      { "name": "Yamaoka Genrin", "affiliation": "Edo-period writer", "contribution": "Earliest printed reference to the akaneburi variant (1686)", "period": "17th century" },
+      { "name": "Toriyama Sekien", "affiliation": "Edo-period ukiyo-e artist", "contribution": "Fixed the standard name and image of the akaname in Gazu Hyakki Yagyō (1776)", "period": "18th century" },
+      { "name": "Kanda Genki", "affiliation": "Edo-period naturalist", "contribution": "Provided detailed prose description in Nittō honzō zusan (1780)", "period": "18th century" },
+      { "name": "Matthew Meyer", "affiliation": "Independent yokai researcher / yokai.com", "contribution": "English-language documentation and translation of the akaname tradition", "period": "2010s–present" }
+    ],
     "organizations": [],
-    "ongoing_studies": "None documented"
+    "ongoing_studies": "Continued scholarly translation of Edo-period yokai catalogues and the role of yokai in Japanese folk hygiene and household discourse."
   },
-  "sources": []
+
+  "sources": [
+    {
+      "id": "wikipedia-akaname",
+      "type": "website",
+      "title": "Akaname",
+      "publication": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Akaname",
+      "accessed": "2026-05-07"
+    },
+    {
+      "id": "yokai-com-akaname",
+      "type": "website",
+      "title": "Akaname",
+      "authors": ["Matthew Meyer"],
+      "publication": "yokai.com",
+      "url": "https://yokai.com/akaname/",
+      "accessed": "2026-05-07"
+    },
+    {
+      "id": "sekien-1776",
+      "type": "book",
+      "title": "Gazu Hyakki Yagyō (画図百鬼夜行)",
+      "authors": ["Toriyama Sekien"],
+      "date": "1776"
+    },
+    {
+      "id": "genrin-1686",
+      "type": "book",
+      "title": "Kokon hyakumonogatari hyōban (古今百物語評判)",
+      "authors": ["Yamaoka Genrin"],
+      "date": "1686"
+    },
+    {
+      "id": "kanda-1780",
+      "type": "book",
+      "title": "Nittō honzō zusan (日東本草図纂)",
+      "authors": ["Kanda Genki"],
+      "date": "1780"
+    }
+  ]
 }

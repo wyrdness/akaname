@@ -1,277 +1,157 @@
 # Akaname
 
-> *"Keep your bathroom clean, or the filth licker will come."*
+> Akaname ('filth-licker') is a small Japanese yokai recorded in Edo-period bestiaries that emerges in dirty, neglected bathrooms and bathhouses to lick the grime off tubs and floors with its long red tongue. It functions in folklore as a moral spur to keep bathrooms clean.
 
-[![API Version](https://img.shields.io/badge/api-v1.0.0-blue)]()
-[![Last Updated](https://img.shields.io/badge/updated-2026--01--14-green)]()
-[![Status](https://img.shields.io/badge/status-traditional-brightgreen)]()
+[![API Version](https://img.shields.io/badge/api-v1.1.0-blue)]() [![Last Updated](https://img.shields.io/badge/updated-2026-05-07-green)]() [![Sightings](https://img.shields.io/badge/sightings-0-orange)]() ![Status](https://img.shields.io/badge/status-documented-blue)
 
 ---
-
 ## Quick Reference
 
 | Property | Value |
-|----------|-------|
+|---|---|
 | **ID** | `akaname` |
 | **Category** | ENTITY_SPIRIT |
-| **Classification** | Yokai / Domestic spirit |
-| **First Recorded** | Traditional folklore |
-| **Primary Region** | Japan |
-| **Status** | Traditional folklore |
+| **Subcategory** | Yokai (bathroom spirit) |
+| **First recorded** | 1686-01-01 |
+| **Primary range** | A figure of Japanese yokai art and folklore, distributed wherever Edo-period and modern Japanese bathing culture is observed |
+| **Status** | documented |
 
 ---
-
 ## Overview
 
-Akaname, whose name literally means "filth licker," is a distinctive yokai from Japanese folklore that inhabits dirty, neglected bathrooms. This small humanoid creature appears at night in bathrooms that have been left unclean, using its characteristically long tongue to lick filth, grime, mold, and accumulated dirt from walls, floors, and fixtures.
-
-Depicted with grimy skin, disheveled hair, and a generally grotesque appearance, Akaname is nonetheless harmless to humans—its presence serves more as a consequence and reminder of poor hygiene than as a genuine threat.
-
-The yokai embodies a practical folk belief designed to encourage cleanliness and proper maintenance of bathrooms, particularly traditional Japanese baths. The simple prevention is maintaining cleanliness—Akaname will not appear in a well-kept bathroom.
+Akaname (垢嘗, 'filth-licker') is a yokai of Japanese folklore, classically depicted as a small, child-sized, naked humanoid with shaggy hair, clawed feet, and an extremely long red tongue. It appears in old bathhouses and dilapidated bathrooms at night, where it laps up the dirt, sweat-residue, and mildew (collectively aka) accumulated on tubs, floors, and walls. The earliest known reference is the variant akaneburi described in Yamaoka Genrin's Kokon hyakumonogatari hyōban (1686), and the standard form is fixed by Toriyama Sekien's woodblock-print bestiary Gazu Hyakki Yagyō (1776). Detailed prose anecdotes appear in Kanda Genki's Nittō honzō zusan (1780). In its conventional form akaname is harmless: rather than attacking humans, it serves as a folk warning that bathrooms left dirty will attract supernatural vermin. A more sinister variant in some regional traditions takes the form of a beautiful woman who licks her victims to skeletal remains, but this is far less widespread than the harmless cleanliness-totem version.
 
 ---
+## Names & Aliases
 
-## Etymology & Names
+| Name | Origin | Meaning |
+|---|---|---|
+| 垢嘗 | Japanese (kanji) | filth-licker |
+| Akaneburi | Japanese (older variant) | filth-licking |
+| Filth-licker | English (descriptive) |  |
 
-### Primary Name
-- **Akaname** (垢嘗) — From "aka" (filth/grime/scum) and "name/nameru" (to lick). Literally "filth licker."
+## Etymology
 
-### Alternative Names
-
-| Name | Language/Region | Meaning |
-|------|-----------------|---------|
-| Filth Licker | English | Direct translation |
-
----
-
-## Classification
-
-### Taxonomy
-```
-Category: ENTITY_SPIRIT
-├── Type: Yokai
-├── Subtype: Domestic spirit
-└── Variant: Japanese (household)
-```
-
-### Related Phenomena
-
-| Phenomenon | Relationship | Description |
-|------------|--------------|-------------|
-| Zashiki-warashi | Household spirit | Child spirit in homes (benevolent) |
-| [Kappa](/kappa) | Water-associated | Water yokai, bathing area connection |
+- **Origin**: Japanese, from aka (垢, 'dirt, sweat-grime, scum') and the verb nameru (嘗める, 'to lick').
+- **Meaning**: 'Filth-licker' or 'scum-licker'.
+- **First use**: 1686 — earliest reference is to akaneburi in Yamaoka Genrin's Kokon hyakumonogatari hyōban; the form akaname is named in Toriyama Sekien's Gazu Hyakki Yagyō (1776).
 
 ---
+## Related Phenomena
 
-## Characteristics
+- [Tenjōname](../tenjoname/) — _similar_: Ceiling-licker yokai of Toriyama Sekien's catalogues
+- [Aka Manto](../aka-manto/) — _related_: Modern bathroom-related Japanese urban legend, sometimes confused with the akaname
+- [Bannik](../bannik/) — _similar_: Slavic bathhouse spirit with comparable role
 
-### Physical Description
+---
+## Physical Description
 
-| Attribute | Description | Confidence |
-|-----------|-------------|------------|
-| **Height** | 0.5 - 1.0 meters (1.5 - 3 feet) | Medium |
-| **Appearance** | Small humanoid, dirty and unkempt | High |
-| **Coloration** | Grimy skin, unwashed appearance | High |
-| **Build** | Small, grotesque | Medium |
+- **Morphology**: Small humanoid yokai built around an oversized tongue and claws; depicted in colour woodblock prints rather than measured in physical units.
 
-### Distinguishing Features
+### Features
 
 | Feature | Description | Frequency |
-|---------|-------------|-----------|
-| Long tongue | Extremely long tongue for licking filth | Always |
-| Grimy skin | Dirty, unwashed appearance | Always |
-| Disheveled hair | Messy, unkempt hair | Common |
-| Small size | Child-sized or smaller | Always |
-| Grotesque look | Generally disgusting appearance | Always |
+|---|---|---|
+| Child-sized humanoid form | Roughly the size of a child, often described in classical sources as having a naked, ruddy or red body. | always |
+| Long red tongue | Conspicuously long red tongue, used to lick filth from bath surfaces. | always |
+| Clawed feet / single toe | Sharp claws on the toes; in some descriptions only a single toe per foot. | common |
+| Bristly or pebbly head | Cropped or pebbly textured head per the Nittō honzō zusan. | common |
+| Round eyes | Large round eyes, contributing to the goblin-like appearance. | common |
 
-### Reported Abilities
+## Reported Abilities
 
-| Ability | Description | Evidence Level |
-|---------|-------------|----------------|
-| Filth consumption | Licks grime, mold, bathroom scum | Folklore |
-| Nocturnal manifestation | Appears only at night | Folklore |
-| Cleanliness detection | Only appears in dirty bathrooms | Folklore |
+| Ability | Description | Frequency | Evidence |
+|---|---|---|---|
+| Filth-licking | Cleans grime, sweat-residue, and mildew from bathroom surfaces with its long tongue. | always | folklore |
+| Stealth manifestation | Appears unseen at night in unattended bathrooms and bathhouses. | always | folklore |
 
-### Behavioral Patterns
+## Behavior
 
-- **Activity Period**: Nocturnal (nighttime only)
-- **Disposition**: Harmless (disgusting but not dangerous)
-- **Social Structure**: Solitary
-- **Habitat Preference**: Unclean bathrooms, traditional baths, neglected washing areas
-- **Diet**: Filth, grime, mold, bathroom scum
-- **Threat Level**: None (more gross than dangerous)
-
-#### Typical Behavior:
-- Emerges at night in dirty bathrooms
-- Licks dirty surfaces with long tongue
-- Consumes accumulated filth and mold
-- Targets bathrooms specifically
-- Disappears if bathroom is cleaned
-- Does not harm or attack humans
-- Presence indicates poor hygiene
+- **Activity**: nocturnal
+- **Disposition**: neutral
+- **Social structure**: solitary
+- **Habitat**: dirty private bathrooms, neglected public bathhouses (sentō), abandoned dwellings
+- **Diet**: Aka — accumulated dead-skin grime, sweat residue, soap scum, and mildew
 
 ---
+## Distribution
 
-## Cultural Purpose
+A figure of Japanese yokai art and folklore, distributed wherever Edo-period and modern Japanese bathing culture is observed.
 
-### The Cautionary Tale
-
-Akaname serves a **practical purpose** in Japanese folklore: **encouraging cleanliness and proper household maintenance**.
-
-**How the Story Works**:
-1. Children are told about disgusting creature that licks bathroom filth
-2. The gross imagery motivates proper cleaning
-3. Clean bathroom = no Akaname
-4. Dirty bathroom = filth-licking yokai visits at night
-
-**The Message**:
-- Cleanliness prevents supernatural intrusion
-- Negligence has consequences (even if harmless)
-- Proper household maintenance is important
-- Taking care of your home keeps unwanted things away
-
-### Prevention is Simple
-
-**To avoid Akaname**: Keep your bathroom clean.
-
-That's it. The yokai will not appear in a well-maintained bathroom. This straightforward cause-and-effect makes Akaname an effective teaching tool for hygiene.
 
 ---
+## Historical Timeline
 
-## Cultural Significance
+| Date | Event | Significance |
+|---|---|---|
+| 1686-01-01 | Yamaoka Genrin includes the variant akaneburi in Kokon hyakumonogatari hyōban | Earliest known printed reference |
+| 1776-01-01 | Toriyama Sekien depicts and names the akaname in Gazu Hyakki Yagyō | Standard visual representation; fixes the name 'akaname' |
+| 1780-01-01 | Kanda Genki's Nittō honzō zusan provides further descriptive anecdotes | Adds the 'pebbly head, round eyes, long tongue' description |
 
-### Japanese Cleanliness Values
+## Evidence
 
-> ⚠️ **Cultural Sensitivity Note**: Akaname reflects important Japanese cultural values regarding cleanliness, particularly in bathing areas which hold special significance in Japanese culture.
+### Documentary
 
-**Bathroom/Bathing Importance**:
-- Traditional Japanese baths are culturally significant
-- Cleanliness is deeply valued in Japanese society
-- Proper maintenance of bathing areas is important
-- Hygiene extends beyond practical to cultural duty
-
-**Folklore as Teaching Tool**:
-- Yokai often serve to reinforce social norms
-- Disgusting imagery is memorable and effective
-- Children's education through supernatural stories
-- Practical wisdom wrapped in folklore
-
-### Symbolism
-
-**Consequence of Negligence**: What happens when you don't maintain your home
-
-**Cleanliness as Protection**: Proper hygiene keeps unwanted things away
-
-**Harmless Warning**: Not all yokai are dangerous—some just gross
-
-**Practical Folklore**: Supernatural beliefs serving everyday purposes
+| Name | Date | Description | Status |
+|---|---|---|---|
+| Gazu Hyakki Yagyō entry | 1776 | Toriyama Sekien's illustrated entry that fixes the name and standard appearance of the akaname. | verified |
+| Kokon hyakumonogatari hyōban entry | 1686 | Yamaoka Genrin's earliest reference to the akaneburi (filth-licking) variant. | verified |
+| Nittō honzō zusan entry | 1780 | Kanda Genki's prose description of the akaname with the 'pebbly head, round eyes, long tongue' language. | verified |
 
 ---
+## Theories & Explanations
 
-## Modern Applications
+### Paranormal / Cryptozoological
 
-### Contemporary Use
+**Manifestation of accumulated filth** _(Edo-period yokai writers)_
 
-Akaname has found new life in modern contexts:
+In Japanese folk understanding, the akaname is generated where dust and grime concentrate in old bathhouses and dilapidated homes — a literal embodiment of accumulated negative energy or impurity.
 
-**Cleaning Products**:
-- Featured in advertising campaigns
-- Mascot for bathroom cleaners
-- Visual representation of what cleaners remove
+### Skeptical
 
-**Hygiene Education**:
-- Teaching children about cleanliness
-- Public health campaigns
-- Educational materials
+**Domestic moral fable** _(Modern yokai scholars)_
 
-**Popular Culture**:
-- Yokai-themed video games (Yo-kai Watch, etc.)
-- Anime and manga appearances
-- Cultural exhibitions and merchandise
+Folklorists generally treat the akaname as a didactic fable encouraging hygiene: parents and elders invoked it to motivate children to keep bathrooms clean.
 
----
 
-## Comparative Folklore
+## Popular Culture
 
-### Similar Concepts Worldwide
+**Literature**: Toriyama Sekien — Gazu Hyakki Yagyō (1776); Yamaoka Genrin — Kokon hyakumonogatari hyōban (1686); Kanda Genki — Nittō honzō zusan (1780); Matthew Meyer — The Night Parade of One Hundred Demons and other yokai compendia
 
-Many cultures have supernatural beings that enforce cleanliness:
+**Games**: Recurring as a minor enemy in Japanese console RPGs and yokai-themed games
 
-| Culture | Entity | Function |
-|---------|--------|----------|
-| Japanese | Akaname | Licks bathroom filth |
-| European | Household spirits | Reward/punish cleanliness |
-| Slavic | Domovoi | Household spirit favoring cleanliness |
+**Other**: Featured prominently on yokai.com and other modern yokai databases
 
 ---
+## Research
 
-## How to Report an Encounter
+### Researchers
 
-If you've encountered Akaname or similar phenomena:
+| Name | Affiliation | Contribution | Period |
+|---|---|---|---|
+| Yamaoka Genrin | Edo-period writer | Earliest printed reference to the akaneburi variant (1686) | 17th century |
+| Toriyama Sekien | Edo-period ukiyo-e artist | Fixed the standard name and image of the akaname in Gazu Hyakki Yagyō (1776) | 18th century |
+| Kanda Genki | Edo-period naturalist | Provided detailed prose description in Nittō honzō zusan (1780) | 18th century |
+| Matthew Meyer | Independent yokai researcher / yokai.com | English-language documentation and translation of the akaname tradition | 2010s–present |
 
-1. **GitHub Issue**: [Submit Report](../../issues/new?template=encounter_report.yml)
-2. **Required Information**:
-   - Date and time (nighttime)
-   - Bathroom condition at time
-   - Description of appearance
-   - Behavior observed
-   - Did cleaning prevent return?
-
-See [Contributing Guidelines](https://github.com/wyrdness/.github/blob/main/CONTRIBUTING.md) for submission requirements.
+Continued scholarly translation of Edo-period yokai catalogues and the role of yokai in Japanese folk hygiene and household discourse.
 
 ---
+## Sources
 
-## API Reference
+See [SOURCES.md](SOURCES.md) for the complete bibliography.
 
-Machine-readable data is available in [`api.json`](api.json).
 
-### Data Access
+## How to Report a Sighting
 
-```javascript
-// Using WyrdnessAPI
-const wyrd = new WyrdnessAPI();
-const akaname = await wyrd.getPhenomenon('akaname');
-```
-
-### Direct Access
-
-```
-Raw JSON: https://raw.githubusercontent.com/wyrdness/akaname/main/api.json
-```
+1. **GitHub Issue**: [Submit Sighting Report](../../issues/new?template=sighting_report.yml)
+2. Provide date, location, witnesses, description, conditions, and any evidence.
 
 ---
-
-## Sources & References
-
-See [SOURCES.md](SOURCES.md) for complete bibliography.
-
-### Key Sources
-
-- Foster, M.D. (2015). *The Book of Yokai: Mysterious Creatures of Japanese Folklore*. University of California Press.
-- Mizuki, S. *Yokai Encyclopedia* (various editions)
-- Traditional Japanese household folklore
-
----
-
-## Changelog
-
-| Version | Date | Changes |
-|---------|------|---------|
-| 1.0.0 | 2026-01-14 | Initial release |
-
----
-
 ## License
 
-- **Content**: [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/)
-- **Data**: [CC0 1.0](https://creativecommons.org/publicdomain/zero/1.0/)
+Content: [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/)  
+Data: [CC0 1.0](https://creativecommons.org/publicdomain/zero/1.0/)  
 
 ---
-
-<div align="center">
-
-*Part of the [Wyrdness](https://github.com/wyrdness) Paranormal Archive*
-
-[Report Encounter](../../issues/new?template=encounter_report.yml) • [Suggest Correction](../../issues/new?template=correction.yml) • [Full API](api.json)
-
-</div>
+_Auto-generated from `api.json`. Do not edit by hand — edit `api.json` and run `make repo-docs`._
